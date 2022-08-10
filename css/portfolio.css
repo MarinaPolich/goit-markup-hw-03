@@ -1,17 +1,20 @@
-.filter-button {
-    text-align: center;
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.filter .filter-item:not(:last-child) {
+    margin-right: 8px;
 }
 
 .filter .button {
-    /* background-color: var(--accent-color);
-    color: var(--primary-white-color); */
-    display: inline-block;
     padding: 6px 22px;
-    text-align: center;
     border-radius: 4px;
     border: none;
-    margin-right: 8px;
-    margin-bottom: 50px;
+    /* margin-right: 8px; */
 
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
